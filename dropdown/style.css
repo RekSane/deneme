@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  position: relative;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.dropdown-container {
+  width: 160px;
+  height: 45px;
+  cursor: pointer;
+  position: relative;
+}
+
+.dropdown {
+  display: inline-block;
+  padding: 10px 15px;
+  color: white;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(163, 24, 197);
+  cursor: pointer;
+}
+
+.menu {
+  position: absolute;
+  display: none;
+  top: 45px;
+  width: 100%;
+  flex-direction: column;
+  background-color: blueviolet;
+}
+
+.menu span {
+  padding: 6px 10px;
+  border-bottom: 1px solid rgb(194, 181, 181);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu span:hover {
+  background-color: white;
+  color: blueviolet;
+}
+
+.dropdown-container:hover > .menu {
+  display: flex;
+}
+
+.menu:hover {
+  display: flex;
+}

@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  margin-bottom: 10px;
+  /* animation-name: spin;
+  animation-duration: 2s;
+  animation-iteration-count: 2 ; */
+  /* animation-name: changeColor;
+  animation-duration: 10s;
+  animation-iteration-count: infinite; */
+
+  /* animation-name: goToRightAndChangeColor;
+  animation-duration: 3s;
+   animation-delay: 4s ;
+  background-color: aqua;
+  animation-fill-mode: backwards; */
+  animation: goLeftTurnBack 3s linear infinite both;
+}
+
+/* @keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+/* } */
+
+/* @keyframes changeColor {
+  0% {
+    background-color: blue;
+  }
+  25% {
+    background-color: violet;
+  }
+  50% {
+    background-color: purple;
+  }
+  75% {
+    background-color: rgb(235, 238, 58);
+  }
+  100% {
+    background-color: rgb(51, 161, 156);
+  }
+} */
+
+/* @keyframes goToRightAndChangeColor {
+  from {
+    background-color: red;
+    transform: translateX(0);
+  }
+  to {
+    background-color: yellow;
+    transform: translateX(500px);
+  }
+} */
+
+@keyframes goLeftTurnBack {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(200px) translateY(200px);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+
+/* 
+.square:nth-child(1) {
+  animation-timing-function: linear;
+}
+.square:nth-child(2) {
+  animation-timing-function: ease;
+}
+.square:nth-child(3) {
+  animation-timing-function: ease-in;
+}
+.square:nth-child(4) {
+  animation-timing-function: ease-out;
+}
+.square:nth-child(5) {
+  animation-timing-function: ease-in-out;
+}
+.square:nth-child(6) {
+  animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+} */
