@@ -1,0 +1,46 @@
+$primary-color: #3a5580;
+
+// body {
+//   background-color: $primary-color;
+//   width: 200px;
+//   font-size: 99px;
+// }
+
+// ul {
+//     font-size: 48px;
+// }
+
+// ul li {
+//     background-color: blue;
+// }
+
+// ul li:first-child {
+//     font-size: 50px;
+// }
+
+// ul {
+//   font-size: 40px;
+
+//   li {
+//     background-color: rgb(34, 0, 255);
+//   }
+// }
+
+.card {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+
+  .heading {
+    background-color: rgb(35, 221, 35);
+    font-size: 20px;
+
+    h1 {
+      color: yellow;
+    }
+
+    button {
+      border-radius: 10px;
+    }
+  }
+}
