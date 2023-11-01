@@ -1,0 +1,11 @@
+@mixin text-formatter(
+  $font-size,
+  $font-weigth,
+  $line-heigth: normal,
+  $font-style: normal
+) {
+  font-size: $font-size;
+  font-weight: $font-weigth;
+  line-height: $line-heigth;
+  font-style: $font-style;
+}

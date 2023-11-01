@@ -1,0 +1,89 @@
+#home-page {
+  background-color: $white-dark;
+
+  .container {
+    width: $container-width;
+    margin: auto;
+  }
+
+  .explore {
+    padding: 180px 30px;
+
+    &__heading {
+      @include text-formatter(64px, 700);
+      color: $green-dark;
+      text-align: center;
+    }
+
+    &__content {
+      display: grid;
+      grid-template-columns: 350px auto;
+      margin-top: 100px;
+      width: 100%;
+
+      &__filter {
+        position: relative;
+
+        &__category-list {
+          overflow-y: auto;
+          margin-top: 66px;
+          width: 100%;
+          height: 750px;
+          display: flex;
+          flex-direction: column;
+          row-gap: 110px;
+
+          &::-webkit-scrollbar-thumb {
+            background-color: $green-dark;
+          }
+          &::-webkit-scrollbar {
+            width: 10px;
+          }
+          &::-webkit-scrollbar-track {
+            background-color: $green-light;
+          }
+          &__item {
+            text-decoration: none;
+            color: $green-dark;
+            @include text-formatter(24px, 400);
+            transition: 0.3s;
+            &:hover {
+              color: $gray-extra-dark;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.test {
+  height: 750px;
+  position: relative;
+
+  div:last-child {
+    background-color: $white-dark;
+    padding: 30px;
+    position: absolute;
+    right: -44px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    button {
+      padding: 15px 17px;
+      border-radius: 50%;
+      border: none;
+      bottom: 40px;
+
+      &:first-child {
+        background-color: $blue-light;
+      }
+
+      &:last-child {
+        background-color: $pink-light;
+      }
+    }
+  }
+}
