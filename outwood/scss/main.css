@@ -1,0 +1,19 @@
+div {
+  background-color: rgba(0, 0, 17, 0.1333333333);
+}
+
+h1 {
+  background-color: transparent;
+  color: red;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+
+h4 {
+  background-color: transparent;
+  color: red;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
