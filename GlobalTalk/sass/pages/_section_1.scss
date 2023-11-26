@@ -1,0 +1,109 @@
+.section_1 {
+    display: flex;
+    justify-content: center;
+    height: 740px;
+    background-color: $primaty-grey-light;
+  
+    .container {
+      width: 1180px;
+      height: 700px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+  
+      .left-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 48.777px;
+  
+        &__about {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 32px;
+  
+          > div {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+  
+            .button_2 {
+              color: $primaty-cyan-dark;
+              letter-spacing: 2.24px;
+            }
+  
+            > div {
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              gap: 30px;
+  
+              h1 {
+                width: 531px;
+              }
+  
+              .body_1 {
+                color: $primaty-grey-dark;
+                width: 396.886px;
+              }
+            }
+          }
+  
+          .button_2:last-child {
+            display: flex;
+            padding: 14px 22px;
+            justify-content: center;
+            align-items: center;
+            gap: 19px;
+            border-radius: 100px;
+            background: $primaty-cyan-light;
+            border: none;
+            color: $primaty-cyan-dark;
+          }
+        }
+  
+        &__statistics {
+          display: flex;
+          align-items: center;
+          gap: 48.777px;
+  
+          &__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3px;
+  
+            > div {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+  
+              .extra_1::after {
+                content: "+";
+                color: $primaty-cyan-dark;
+              }
+            }
+            .body_2 {
+              color: #585858;
+            }
+          }
+  
+          .divider {
+            height: 48.777px;
+          }
+        }
+      }
+  
+      .right-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        width: 675px;
+        top: 109px;
+        left: 500.1px;
+      }
+    }
+  }

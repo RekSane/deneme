@@ -1,0 +1,44 @@
+.section_2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 600px;
+  
+    .container {
+      display: flex;
+      width: 1180px;
+      justify-content: space-between;
+      align-content: center;
+  
+      .left-side {
+        display: flex;
+        align-items: center;
+      }
+  
+      .right-side {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 385px;
+        gap: 30px;
+  
+        .body_1 {
+          color: $primaty-grey-dark;
+        }
+  
+        > div:last-child {
+          display: flex;
+          justify-content: space-between;
+          width: 324.048px;
+          height: 145.5px;
+  
+          img {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  
+  
+  }

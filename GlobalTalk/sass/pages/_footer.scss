@@ -1,0 +1,48 @@
+footer {
+    background: $primaty-grey-light;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    gap: 10px;
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      width: 1180px;
+  
+      > div {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        .side {
+          display: flex;
+          gap: 30px;
+  
+          .body_3 {
+            color: $primaty-grey-dark;
+            cursor: pointer;
+          }
+  
+          img{
+            cursor: pointer;
+          }
+        }
+        .label {
+          color: $primaty-grey-dark;
+        }
+  
+        .label::after {
+          content: " GlobalTalk.";
+          text-decoration-line: underline;
+          cursor: pointer;
+        }
+      }
+    }
+  
+  }

@@ -1,0 +1,85 @@
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: $primaty-grey-light;
+    .container {
+      padding: 24px 0;
+      display: flex;
+      width: 1180px;
+      align-items: center;
+      justify-content: space-between;
+  
+      > img {
+        display: none;
+      }
+      .left-side {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+  
+        p {
+          color: $primaty-black;
+          font-family: Dela Gothic One;
+          font-size: 20.861px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 100%; /* 20.861px */ 
+          letter-spacing: -0.417px;
+        }
+  
+        > .divider {
+          height: 16.865px;
+        }
+  
+        .body_2:nth-child(3) {
+          color: $primaty-black;
+        }
+  
+        .body_2 {
+          display: flex;
+          align-items: center;
+          color: $primaty-grey-dark;
+          cursor: pointer;
+        }
+      }
+  
+      .right-side {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+  
+        div {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          cursor: pointer;
+  
+          .button_2 {
+            color: $primaty-cyan-dark;
+            display: flex;
+            padding: 9px 14px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px;
+            background: $primaty-cyan-light;
+            border: none;
+          }
+  
+          .body_2 {
+            color: $primaty-grey-dark;
+  
+            img {
+              display: none;
+            }
+          }
+        }
+  
+        .button_2 {
+          border: none;
+          background: none;
+        }
+      }
+    }
+  
+    
+  }

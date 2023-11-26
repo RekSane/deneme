@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "Dela Gothic One";
+    src: url("../../assets/fonts/DelaGothicOne/DelaGothicOne-Regular.eot");
+    src: local("Dela Gothic One Regular"), local("DelaGothicOne-Regular"),
+      url("../../assets/fonts/DelaGothicOne/DelaGothicOne-Regular.eot?#iefix")
+        format("embedded-opentype"),
+      url("../../assets/fonts/DelaGothicOne/DelaGothicOne-Regular.woff2")
+        format("woff2"),
+      url("../../assets/fonts/DelaGothicOne/DelaGothicOne-Regular.woff")
+        format("woff"),
+      url("../../assets/fonts/DelaGothicOne/DelaGothicOne-Regular.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  h1 {
+    font-family: Dela Gothic One;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 67.2px */
+    letter-spacing: -2.24px;
+  }
+  
+  h2 {
+    font-family: Dela Gothic One;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 48px */
+    letter-spacing: -1.92px;
+  }
+  
+  h3 {
+    font-family: Dela Gothic One;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 32px */
+    letter-spacing: -1.28px;
+  }
+  
+  h4 {
+    font-family: Dela Gothic One;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 26px */
+    letter-spacing: -1.04px;
+  }
+  
+  .body_1 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 25.2px */
+    letter-spacing: -0.72px;
+  }
+  
+  .body_2 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: -0.64px;
+  }
+  
+  .body_3 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 19.6px */
+    letter-spacing: -0.56px;
+  }
+  
+  .label {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 16.8px */
+    letter-spacing: -0.48px;
+  }
+  
+  .button_1 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.72px;
+    cursor: pointer;
+  }
+  
+  .button_2 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.64px;
+    cursor: pointer;
+  }
+  
+  .link_1 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    cursor: pointer;
+  }
+  
+  .link_2 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    cursor: pointer;
+  }
+  
+  .extra_1 {
+    font-family: Dela Gothic One;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 40px */
+    letter-spacing: -0.8px;
+  }
