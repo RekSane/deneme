@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel {
+    width: 410px;
+    height: 318px;
+    background-color:pink;
+    border: 10px dashed red;
+    overflow: hidden ;
+}
+
+.carousel .img-container {
+    display: flex;
+    height: 300px;
+  animation: carousel-swipe 10s infinite; 
+ 
+}
+
+.carousel .img-container img {
+    width: 400px;
+    object-fit: cover;
+}
+
+@keyframes carousel-swipe {
+    15% {
+        transform: translateX(0);
+    }
+    20%,
+    35% {
+        transform: translateX(-400px);
+    }
+    40%,
+    55% {
+        transform: translateX(-800px);
+    }
+    60%,
+    75% {
+        transform: translateX(-1200px);
+    }
+    80%,
+    95% {
+        transform: translateX(-1600px);
+    }
+    100% {
+        transform: translateX(0);
+    } 
+}
