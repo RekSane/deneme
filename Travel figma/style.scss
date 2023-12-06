@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin text-formatter($fontWeight, $color: black, $fontSize: 16px) {
+  font-weight: $fontWeight;
+  color: $color;
+  font-size: $fontSize;
+  line-height: normal;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  p {
+    @include text-formatter(700, #fff, 24px);
+  }
+}
+
+.rightside {
+  a {
+    @include text-formatter(400, #fff, 14px);
+  }
+}
+
+.container {
+  background-image: url("./images/picture.png");
+  background-color: plum;
+  margin: auto;
+  height: 988px;
+}
