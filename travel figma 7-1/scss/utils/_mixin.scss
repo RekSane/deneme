@@ -1,0 +1,15 @@
+@mixin forsize($screen) {
+  @if $screen == mobile {
+    @media screen and (max-width: 1200px) {
+      @content;
+    }
+  }
+}
+@mixin text-formatter($fontWeight, $color: black, $fontSize: 16px) {
+  font-weight: $fontWeight;
+  color: $color;
+  font-size: $fontSize;
+  line-height: normal;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+}

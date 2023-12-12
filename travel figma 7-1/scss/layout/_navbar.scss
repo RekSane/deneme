@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 46px;
+
+  p {
+    @include text-formatter(700, #fff, 24px);
+  }
+
+  img {
+    display: none;
+  }
+
+  @include forsize(mobile) {
+    img {
+      display: initial;
+    }
+  }
+}
