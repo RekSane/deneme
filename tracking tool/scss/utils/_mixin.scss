@@ -1,0 +1,32 @@
+@mixin text-formatter(
+  $color: black,
+  $size: 16px,
+  $weight,
+  $height: normal,
+  $hoverColor
+) {
+  color: $color;
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $height;
+  font-style: normal;
+  font-family: "Lexend";
+
+  transition: 0.3s color;
+
+  &:hover {
+    color: $hoverColor;
+  }
+}
+
+@mixin for-size($screen) {
+  @if $screen == tablet {
+    @media screen and (max-width: $tablet-container-width) {
+      @content;
+    }
+  } @else if $screen == mobile {
+    @media screen and (max-width: $mobile-container-width) {
+      @content;
+    }
+  }
+}

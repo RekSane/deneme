@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.input-container {
+  margin: 20px;
+  width: 200px;
+  position: relative;
+}
+
+.input-container input {
+  width: 100%;
+  outline: none;
+  padding: 15px 20px;
+  padding-left: 25px;
+  border-radius: 10px;
+  border: 2px solid plum;
+}
+
+.input-container > img {
+  position: absolute;
+  top: 14px;
+  left: 10px;
+}
+p {
+  font-size: 24px;
+}
+
+.chat-badge {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  display: inline-block;
+  background-color: blueviolet;
+  border-radius: 50%;
+  bottom: 40px;
+  right: 40px;
+  cursor: pointer;
+}
+
+.chat-badge img {
+  margin-top: 12px;
+}

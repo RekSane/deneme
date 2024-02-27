@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  width: calc(100% - 322px);
+  height: 100vh;
+  background-image: url("../assets/images/bg-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+
+  @include for-size(tablet) {
+    background-image: url(../assets/images/bg-tablet.png);
+    width: calc(100% - 290px);
+  }
+
+  @include for-size(mobile) {
+    background-image: url(../assets/images/bg-mobile.png);
+    width: 100%;
+  }
+}

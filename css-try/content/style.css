@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  width: 600px;
+  height: 400px;
+  background-color: beige;
+  margin: 100px auto;
+  padding: 40px;
+  position: relative;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 20px;
+  right: 20px;
+}
+
+h1 {
+  display: inline-block;
+}
